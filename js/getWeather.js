@@ -49,7 +49,7 @@ function setIPPosition(position) {
 
 }
 
-// SHOW ERROR WHEN THERE IS AN ISSUE WITH GEOLOCATION SERVICE
+// Error Handling for GEO location API. If user denies location, use IP address to get location
 function errorHandle(error) {
     notificationElement.style.display = "block";
     if (error.message == `User denied Geolocation`) {
