@@ -113,7 +113,7 @@ x.onreadystatechange = function () {
                     Highcharts.chart('container1', {
 
                         title: {
-                            text: 'Line chart'
+                            text: 'Humidity and Temperature'
                         },
 
                         yAxis: {
