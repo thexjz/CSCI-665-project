@@ -53,7 +53,7 @@ function setIPPosition(position) {
 function errorHandle(error) {
     notificationElement.style.display = "block";
     if (error.message == `User denied Geolocation`) {
-        notificationElement.innerHTML = `<p> ${error.message}<br>sing your IP address location to provide data</p>`;
+        notificationElement.innerHTML = `<p> ${error.message}<br>Using your IP address location to provide data</p>`;
         setIPPosition();
     }
     else {
