@@ -67,7 +67,7 @@ x.onreadystatechange = function () {
                                                         uptimeSum += Number(abcData[i].uptime); */
                         //only for line graph
                         humArr.push(Number(abcData[i].humidity));
-                        tempArr.push(Number((abcData[i].temperature * 1.8 + 32).toFixed(2)));
+                        tempArr.push(Number((abcData[i].temperature * 9/5 + 32).toFixed(2)));
                         upArr.push(Number(abcData[i].uptime));
                         // lineXaxisData.push(new Date(Number(abcData[i].timestamp)).toLocaleString());
                     }
