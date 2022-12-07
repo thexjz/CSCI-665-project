@@ -125,7 +125,7 @@
                                 uptimeSum += Number(abcData[i].uptime);
 
                                 humArr.push(Number(abcData[i].humidity));
-                                tempArr.push(Number(abcData[i].temperature));
+                                tempArr.push(Number((abcData[i].temperature*1.7+32).toFixed(2)));
                                 upArr.push(Number(abcData[i].uptime));
                                 // lineXaxisData.push(new Date(Number(abcData[i].timestamp)).toLocaleString());
                             }
