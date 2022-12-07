@@ -58,8 +58,8 @@ function errorHandle(error) {
     }
     else {
         notificationElement.innerHTML = `<p> ${error.message}</p>`;
-
     }
+}
 
     // Get weather from API provider Openweatehrmap.org
     function getWeather(latitude, longitude) {
@@ -107,6 +107,6 @@ function errorHandle(error) {
             weather.temperature.unit = "fahrenheit";
         } else {
             temperaturePlaceholder.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-            weather.temperature.unit = "celsius"
+            weather.temperature.unit = "celsius";
         }
-    });
+    })
