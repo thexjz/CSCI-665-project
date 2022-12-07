@@ -2,13 +2,20 @@ h1 {
 	color: gold;
 	font-size: 48px;
 	text-align: center;
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 200;
 }
 
 h3 {
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 200;
 	color: gold;
 	font-size: 30px;
 }
 
 body {
 	background-color: navy;
+	font: atkiv-grotesk;
 }
